@@ -7,7 +7,7 @@
                 "y_column" : "B"
             },
             "remove_mean" : true,
-            "treshold" : {
+            "threshold" : {
                 "lower" : -10.0,
                 "upper" : 10.0
             }

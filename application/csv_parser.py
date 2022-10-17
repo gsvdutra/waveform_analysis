@@ -26,12 +26,12 @@ class CsvParser:
             self.df.loc[:, label] = self.df[label].apply(lambda x: x - mean)
 
 
-    def remove_data_bellow_treshold(self, upper_treshold, lower_treshold, column):
+    def remove_data_bellow_threshold(self, upper_threshold, lower_threshold, column):
         
         column_label = self.df.columns[column]
         data_mean = self.df[column_label].mean()
 
         self.df = self.df.loc[
-            (self.df[column_label] <= data_mean + lower_treshold) | 
-            (self.df[column_label] >= data_mean + upper_treshold)
+            (self.df[column_label] <= data_mean + lower_threshold) | 
+            (self.df[column_label] >= data_mean + upper_threshold)
             ]

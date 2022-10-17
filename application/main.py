@@ -24,10 +24,10 @@ class Main:
 
         if (settings.remove_mean):
             csv_parser.remove_mean_from_data(x_column)
-        if (settings.treshold is not None):
-            csv_parser.remove_data_bellow_treshold(
-                upper_treshold = settings.treshold.upper, 
-                lower_treshold = settings.treshold.lower, 
+        if (settings.threshold is not None):
+            csv_parser.remove_data_bellow_threshold(
+                upper_threshold = settings.threshold.upper, 
+                lower_threshold = settings.threshold.lower, 
                 column = y_column
             )
 
