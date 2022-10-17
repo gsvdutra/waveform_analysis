@@ -1,5 +1,10 @@
 ### Waveform analysis
 
+Run with
+```
+python application.py
+```
+
 This applications aims to predict waveforms from a CSV sample data.
 
 It accepts the following parameters to run the prediction:
