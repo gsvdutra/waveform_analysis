@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from functions import Function
+from .functions import Function
 
 class DataPlotter:
     
