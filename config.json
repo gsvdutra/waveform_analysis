@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "name": "Test curve",
+            "options": {
+                "x_column" : "A",
+                "y_column" : "B"
+            },
+            "remove_mean" : true,
+            "treshold" : {
+                "lower" : -10.0,
+                "upper" : 10.0
+            }
+        },
+        {
+            "name": "Test curve 2",
+            "options": {
+                "x_column" : "A",
+                "y_column" : "B"
+            }
+        }        
+    ]
+}
