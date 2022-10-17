@@ -1,8 +1,13 @@
 ### Waveform analysis
 
-Run with
+To install the required packages
 ```
-python application.py
+make dev
+```
+
+To run the application
+```
+make run_dev
 ```
 
 This applications aims to predict waveforms from a CSV sample data.

@@ -15,7 +15,7 @@ class Options:
     y_column: str
 
 @dataclass
-class threshold:
+class Threshold:
     lower: float
     upper: float
 
@@ -24,7 +24,7 @@ class CurveConfig:
     name: str
     options: Options
     remove_mean: Optional[bool] = None
-    threshold: Optional[threshold] = None
+    threshold: Optional[Threshold] = None
 
 @dataclass
 class ConfigData:
