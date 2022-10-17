@@ -1,6 +1,6 @@
 from email.mime import application
-from src.main import Main
+from src.application.base import Base
 
 if __name__ == "__main__":
-    application = Main("resources/example_data.csv")
+    application = Base()
     application.run_app()

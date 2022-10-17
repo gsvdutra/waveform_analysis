@@ -10,6 +10,30 @@ To run the application
 make run_dev
 ```
 
+Currently available functions:
+- Linear
+
+$x + y$
+
+- Sinus
+
+
+- Sinc 
+
+
+- 
+
+| Function | Equation | Reference |
+| :---:   | :---: | :---: |
+| Linear | $y = ax + b$| linear |
+| Sinus | $y = A \cdot sin(\omega c + \phi) + c$| sinus |
+| Sinc | $y = A \frac{sin(\omega c + \phi)}{x} + c$| sinc |
+| xSin | $y = A \cdot x \cdot sin(\omega c + \phi) + c$| x_sin |
+| Square | $y = square$ | square |
+| Sawtooth | $y = sawtooth$ | sawtooth |
+
+
+
 This applications aims to predict waveforms from a CSV sample data.
 
 It accepts the following parameters to run the prediction:

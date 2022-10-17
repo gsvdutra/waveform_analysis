@@ -2,6 +2,12 @@
     "data": [
         {
             "name": "Test curve",
+            "csv_file_path" : "resources/example_data.csv",
+            "possible_curves" : [
+                "sinus",
+                "sinc",
+                "x_sinus"
+            ],
             "options": {
                 "x_column" : "A",
                 "y_column" : "B"
@@ -14,6 +20,10 @@
         },
         {
             "name": "Test curve 2",
+            "csv_file_path" : "resources/example_data.csv",
+            "possible_curves" : [
+                "linear"
+            ],
             "options": {
                 "x_column" : "A",
                 "y_column" : "B"
